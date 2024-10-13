@@ -15,6 +15,7 @@ namespace KTDK_CanHo_DaoCongTri
 {
     public partial class FormEditApartment : Form
     {
+        private List<Models.Type> types = new List<Models.Type>();
         public int Id { get; set; }
         public FormEditApartment()
         {
@@ -28,79 +29,114 @@ namespace KTDK_CanHo_DaoCongTri
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            int soCanHo, tang;
+            int typeId = int.Parse(cmbType.SelectedValue.ToString());
+            double area = double.Parse(txtArea.Text);
+            int floor = int.Parse(txtFloor.Text);
+            int roomCounts = int.Parse(txtRooms.Text);
+            decimal price = decimal.Parse(txtPrice.Text);
+
             if (Id > 0)
             {
-                if (String.IsNullOrEmpty(txtTCC.Text) ||
-                    String.IsNullOrEmpty(txtDiaChi.Text) ||
-                    !int.TryParse(txtSCH.Text, out soCanHo) ||
-                    !int.TryParse(txtTang.Text, out tang))
+                if (CheckValidate())
                 {
-                    MessageBox.Show("Vui lòng nhập đủ thông tin cho căn hộ");
+                    var selectedApartment = Program.db.Apartments.FirstOrDefault(x => x.ApartmentId == Id);
+                    selectedApartment.TypeId = typeId;
+                    selectedApartment.ApartmentArea = area;
+                    selectedApartment.ApartmentName = txtName.Text.Trim();
+                    selectedApartment.ApartmentNumber = txtNumber.Text.Trim();
+                    selectedApartment.ApartmentStatus = cmbStatus.Text.Trim();
+                    selectedApartment.ApartmentFloor = floor;
+                    selectedApartment.ApartmentRoomCount = roomCounts;
+                    selectedApartment.ApartmentMonthlyRentPrice = price;
+                    selectedApartment.ApartmentHasBalcony = GetHasBalconySelected();
+                    Program.db.SaveChanges();
+                }
+                else
+                {
+                    MessageBox.Show("Please entered full of apartment' fields.");
                     return;
                 }
-
-                var selectedApartment = Program.db.Apartments.FirstOrDefault(x => x.ApartmentId == Id);
-                //selectedApartment.ApartmentRoomCount = soCanHo;
-                //selectedApartment.Tang = tang;
-                //selectedApartment.TenChungCu = txtTCC.Text.Trim();
-                //selectedApartment.DiaChi = txtDiaChi.Text.Trim();
-                //selectedApartment.Loai = GetLoaiSelected();
-                //Program.db.SaveChanges();
             }
             else
             {
-            //    if (String.IsNullOrEmpty(txtTCC.Text) ||
-            //        String.IsNullOrEmpty(txtDiaChi.Text) ||
-            //        !int.TryParse(txtSCH.Text, out soCanHo) ||
-            //        !int.TryParse(txtTang.Text, out tang))
-            //    {
-            //        MessageBox.Show("Vui lòng nhập đủ thông tin cho căn hộ");
-            //        return;
-            //    }
-
-            //    var newCanHo = new CanHo
-            //    {
-            //        TenChungCu = txtTCC.Text.Trim(),
-            //        SoCanHo = soCanHo,
-            //        Tang = tang,
-            //        DiaChi = txtDiaChi.Text.Trim(),
-            //        Loai = GetLoaiSelected()
-            //    };
-            //    Program.db.CanHos.Add(newCanHo);
-            //    Program.db.SaveChanges();
+                if (CheckValidate())
+                {
+                    var newApartment = new Models.Apartment
+                    {
+                        TypeId = typeId,
+                        ApartmentNumber = txtNumber.Text.Trim(),
+                        ApartmentName = txtName.Text.Trim(),
+                        ApartmentArea = area,
+                        ApartmentFloor = floor,
+                        ApartmentStatus = cmbStatus.Text.Trim(),
+                        ApartmentRoomCount = roomCounts,
+                        ApartmentMonthlyRentPrice = price,
+                        ApartmentHasBalcony = GetHasBalconySelected(),
+                    };
+                    Program.db.Apartments.Add(newApartment);
+                    Program.db.SaveChanges();
+                }
+                else
+                {
+                    MessageBox.Show("Please entered full of apartment' fields.");
+                    return;
+                }                
             }
             this.Close();
         }
-        private string GetLoaiSelected()
+        private string GetHasBalconySelected()
         {
-            if (radioBtnShop.Checked)
+            if (radioBtnTrue.Checked)
             {
-                return "Shophouse";
+                return "T";
             }
-            return "Căn hộ";
+            return "F";
         }
+        private bool CheckValidate()
+        {
+            if (!String.IsNullOrEmpty(txtName.Text) ||
+                !String.IsNullOrEmpty(txtNumber.Text) ||
+                !String.IsNullOrEmpty(cmbStatus.Text) ||
+                int.TryParse(cmbType.SelectedValue.ToString(), out int type) ||
+                int.TryParse(txtFloor.Text, out int floor) ||
+                double.TryParse(txtArea.Text, out double tang) ||
+                decimal.TryParse(txtPrice.Text, out decimal price)) 
+            {
+                return true;
+            }
 
+            return false;
+        }
         private void FormEdit_Load(object sender, EventArgs e)
         {
-            //if (Id > 0)
-            //{
-            //    var selectCanHo = Program.db.CanHos.AsNoTracking().FirstOrDefault(x => x.Id == Id);
-            //    txtId.Text = selectCanHo.Id.ToString();
-            //    txtSCH.Text = selectCanHo.SoCanHo.ToString();
-            //    txtTang.Text = selectCanHo.Tang.ToString();
-            //    txtTCC.Text = selectCanHo.TenChungCu.ToString();
-            //    txtDiaChi.Text = selectCanHo.DiaChi.ToString();
-            //    string loai = selectCanHo.Loai.ToString();
-            //    if (loai == "Shophouse")
-            //    {
-            //        radioBtnShop.Checked = true;
-            //    }
-            //    else
-            //    {
-            //        radioBtnCanHo.Checked = true;
-            //    }
-            //}
+            types = Program.db.Types.ToList();
+            cmbType.DataSource = types;
+            cmbType.ValueMember = "TypeId";
+            cmbType.DisplayMember = "TypeName";
+
+            if (Id > 0)
+            {
+                lblHead.Text = "Update Apartment";
+                var selected = Program.db.Apartments.AsNoTracking().FirstOrDefault(x => x.ApartmentId == Id);
+
+                txtId.Text = selected.ApartmentId.ToString();
+                txtNumber.Text = selected.ApartmentNumber.ToString();
+                txtName.Text = selected.ApartmentName.ToString();
+                txtArea.Text = selected.ApartmentArea.ToString();
+                txtFloor.Text = selected.ApartmentFloor.ToString();
+                txtRooms.Text = selected.ApartmentRoomCount.ToString();
+                cmbType.DisplayMember = selected.TypeId.ToString();
+                cmbStatus.Text = selected.ApartmentStatus.ToString();
+                txtPrice.Text = selected.ApartmentMonthlyRentPrice.ToString();
+                if (selected.ApartmentHasBalcony == "T")
+                {
+                    radioBtnTrue.Checked = true;
+                }
+                else
+                {
+                    radioBtnFalse.Checked = true;
+                }
+            }
         }
     }
 }

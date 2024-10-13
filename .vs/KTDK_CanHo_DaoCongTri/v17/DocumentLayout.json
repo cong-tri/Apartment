@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formdeleleapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formdeleleapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formdeleleapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formdeleleapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formeditapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formeditapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +33,84 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 319,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "FormDeleleApartment.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormDeleleApartment.cs",
+              "RelativeDocumentMoniker": "Apartment\\FormDeleleApartment.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormDeleleApartment.cs [Design]",
+              "RelativeToolTip": "Apartment\\FormDeleleApartment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:15:48.372Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDeleleApartment.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormDeleleApartment.cs",
+              "RelativeDocumentMoniker": "Apartment\\FormDeleleApartment.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormDeleleApartment.cs",
+              "RelativeToolTip": "Apartment\\FormDeleleApartment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:14:06.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormApartment.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormApartment.cs",
+              "RelativeDocumentMoniker": "Apartment\\FormApartment.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormApartment.cs [Design]",
+              "RelativeToolTip": "Apartment\\FormApartment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:37:10.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormType.cs",
               "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
               "RelativeDocumentMoniker": "Type\\FormType.cs",
               "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
               "RelativeToolTip": "Type\\FormType.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAiwDAAAAAeAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAADwv1YAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T03:07:10.315Z",
+              "WhenOpened": "2024-10-13T13:29:01.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormType.cs [Design]",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
-              "RelativeDocumentMoniker": "Type\\FormType.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs [Design]",
-              "RelativeToolTip": "Type\\FormType.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "FormEditApartment.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormEditApartment.cs",
+              "RelativeDocumentMoniker": "Apartment\\FormEditApartment.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormEditApartment.cs",
+              "RelativeToolTip": "Apartment\\FormEditApartment.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAHYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T02:49:51.633Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-13T11:09:35.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormApartment.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormApartment.cs",
+              "RelativeDocumentMoniker": "Apartment\\FormApartment.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormApartment.cs",
+              "RelativeToolTip": "Apartment\\FormApartment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T08:07:59.255Z",
+              "EditorCaption": ""
             }
           ]
         }

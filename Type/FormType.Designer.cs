@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnDelete = new Button();
             btn_save = new Button();
             panel2 = new Panel();
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtSearch = new TextBox();
             label3 = new Label();
             txtId = new TextBox();
             label2 = new Label();
@@ -48,6 +49,7 @@
             // panel1
             // 
             panel1.BackColor = Color.YellowGreen;
+            panel1.Controls.Add(btnDelete);
             panel1.Controls.Add(btn_save);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label3);
@@ -59,6 +61,19 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(250, 395);
             panel1.TabIndex = 0;
+            // 
+            // btnDelete
+            // 
+            btnDelete.BackColor = SystemColors.Highlight;
+            btnDelete.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDelete.ForeColor = SystemColors.ButtonHighlight;
+            btnDelete.Location = new Point(18, 316);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(213, 49);
+            btnDelete.TabIndex = 8;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btn_save
             // 
@@ -78,7 +93,7 @@
             panel2.BackColor = Color.Gray;
             panel2.BorderStyle = BorderStyle.Fixed3D;
             panel2.Controls.Add(label1);
-            panel2.Controls.Add(textBox1);
+            panel2.Controls.Add(txtSearch);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
@@ -96,13 +111,14 @@
             label1.TabIndex = 3;
             label1.Text = "Search";
             // 
-            // textBox1
+            // txtSearch
             // 
-            textBox1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(107, 16);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 38);
-            textBox1.TabIndex = 2;
+            txtSearch.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtSearch.Location = new Point(107, 16);
+            txtSearch.Name = "txtSearch";
+            txtSearch.Size = new Size(125, 38);
+            txtSearch.TabIndex = 2;
+            txtSearch.KeyPress += txtSearch_KeyPress;
             // 
             // label3
             // 
@@ -194,7 +210,7 @@
         private Button btn_save;
         private Panel panel2;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtSearch;
         private Label label3;
         private TextBox txtId;
         private Label label2;
@@ -202,5 +218,6 @@
         private DataGridView dataGrdView_Type;
         private DataGridViewTextBoxColumn TypeId;
         private DataGridViewTextBoxColumn TypeName;
+        private Button btnDelete;
     }
 }

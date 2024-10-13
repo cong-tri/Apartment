@@ -20,16 +20,17 @@ namespace KTDK_CanHo_DaoCongTri
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            //if (Id > 0)
-            //{
-            //    var selectedApartment = Program.db.Apartments.FirstOrDefault(x => x.ApartmentId == Id);
-            //    if (selectedApartment != null)
-            //    {
-            //        Program.db.Apartments.Remove(selectedApartment);
-            //        Program.db.SaveChanges();
-            //    }
-            //    this.Close();
-            //}
+            if (Id > 0)
+            {
+                var selectedApartment = Program.db.Apartments.FirstOrDefault(x => x.ApartmentId == Id);
+                if (selectedApartment != null)
+                {
+                    Program.db.Apartments.Remove(selectedApartment);
+                    Program.db.SaveChanges();
+                    MessageBox.Show("Data has been removed");
+                }
+                this.Close();
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)

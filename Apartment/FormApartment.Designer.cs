@@ -46,6 +46,7 @@
             ApartmentRoomCount = new DataGridViewTextBoxColumn();
             ApartmentStatus = new DataGridViewTextBoxColumn();
             ApartmentHasBalcony = new DataGridViewTextBoxColumn();
+            ApartmentMonthlyRentPrice = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
@@ -91,6 +92,7 @@
             txtSearch.Name = "txtSearch";
             txtSearch.Size = new Size(212, 38);
             txtSearch.TabIndex = 1;
+            txtSearch.KeyPress += txtSearch_KeyPress_1;
             // 
             // label1
             // 
@@ -153,7 +155,7 @@
             // dataGrv
             // 
             dataGrv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGrv.Columns.AddRange(new DataGridViewColumn[] { ApartmentId, TypeId, ApartmentName, ApartmentNumber, ApartmentArea, ApartmentRoomCount, ApartmentStatus, ApartmentHasBalcony });
+            dataGrv.Columns.AddRange(new DataGridViewColumn[] { ApartmentId, TypeId, ApartmentName, ApartmentNumber, ApartmentArea, ApartmentRoomCount, ApartmentStatus, ApartmentHasBalcony, ApartmentMonthlyRentPrice });
             dataGrv.Dock = DockStyle.Fill;
             dataGrv.Location = new Point(0, 0);
             dataGrv.Name = "dataGrv";
@@ -225,6 +227,14 @@
             ApartmentHasBalcony.MinimumWidth = 6;
             ApartmentHasBalcony.Name = "ApartmentHasBalcony";
             // 
+            // ApartmentMonthlyRentPrice
+            // 
+            ApartmentMonthlyRentPrice.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            ApartmentMonthlyRentPrice.DataPropertyName = "ApartmentMonthlyRentPrice";
+            ApartmentMonthlyRentPrice.HeaderText = "MonthlyPrice";
+            ApartmentMonthlyRentPrice.MinimumWidth = 6;
+            ApartmentMonthlyRentPrice.Name = "ApartmentMonthlyRentPrice";
+            // 
             // FormApartment
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -249,6 +259,13 @@
         private Panel panel1;
         private Panel panel2;
         private DataGridView dataGrv;
+        private Panel panel3;
+        private Panel panel4;
+        private TextBox txtSearch;
+        private Label label1;
+        private Button btnDelete;
+        private Button btnEdit;
+        private Button btnAdd;
         private DataGridViewTextBoxColumn ApartmentId;
         private DataGridViewTextBoxColumn TypeId;
         private DataGridViewTextBoxColumn ApartmentName;
@@ -257,12 +274,6 @@
         private DataGridViewTextBoxColumn ApartmentRoomCount;
         private DataGridViewTextBoxColumn ApartmentStatus;
         private DataGridViewTextBoxColumn ApartmentHasBalcony;
-        private Panel panel3;
-        private Panel panel4;
-        private TextBox txtSearch;
-        private Label label1;
-        private Button btnDelete;
-        private Button btnEdit;
-        private Button btnAdd;
+        private DataGridViewTextBoxColumn ApartmentMonthlyRentPrice;
     }
 }

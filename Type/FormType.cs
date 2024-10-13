@@ -73,11 +73,48 @@ namespace KTDK_CanHo_DaoCongTri
         {
             Id = e.RowIndex + 1;
 
-            if (Id > 0) {
+            if (Id > 0)
+            {
                 btn_save.Text = "Update";
                 var selectType = Program.db.Types.AsNoTracking().FirstOrDefault(x => x.TypeId == Id);
                 txtId.Text = selectType.TypeId.ToString();
                 txtName.Text = selectType.TypeName.ToString();
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (Id > 0)
+            {
+                bool isReferenced = Program.db.Apartments.Any(x => x.TypeId == Id);
+
+                if (isReferenced)
+                {
+                    MessageBox.Show("This type is referenced in the Apartment table and cannot be deleted.");
+                    return;
+                }
+
+                var selected = Program.db.Types.FirstOrDefault(x => x.TypeId == Id);
+                if (selected != null)
+                {
+                    Program.db.Types.Remove(selected);
+                    Program.db.SaveChanges();
+                    LoadData();
+                    MessageBox.Show("Data has been removed");
+                    txtId.Clear();
+                    txtName.Clear();
+                }
+
+            }
+        }
+
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                var searchKey = txtSearch.Text.Trim().ToLower();
+                var lst = types.Where(x => x.TypeName.ToLower().Contains(searchKey)).ToList();
+                dataGrdView_Type.DataSource = lst;
             }
         }
     }

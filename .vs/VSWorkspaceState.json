@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Type"
   ],
-  "SelectedNode": "\\KTDK_CanHo_DaoCongTri.sln",
+  "SelectedNode": "\\Type\\FormType.cs",
   "PreviewInSolutionExplorer": false
 }
