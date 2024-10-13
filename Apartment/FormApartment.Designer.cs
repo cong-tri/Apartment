@@ -167,7 +167,7 @@
             // 
             ApartmentId.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             ApartmentId.DataPropertyName = "ApartmentId";
-            ApartmentId.HeaderText = "ApartmentId";
+            ApartmentId.HeaderText = "Id";
             ApartmentId.MinimumWidth = 6;
             ApartmentId.Name = "ApartmentId";
             // 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KTDK_CanHo_DaoCongTri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eae1e24f136b95b4ba568f0c447ac96d96ac0732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5c7dc3acb2f542b79817327574cd476e5ada2c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("KTDK_CanHo_DaoCongTri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KTDK_CanHo_DaoCongTri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

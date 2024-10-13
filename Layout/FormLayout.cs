@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KTDK_CanHo_DaoCongTri.Employee;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -48,7 +49,8 @@ namespace KTDK_CanHo_DaoCongTri
 
         private void btn_employee_Click(object sender, EventArgs e)
         {
-
+            OpenFormChild(new FormEmployee());
+            lbl_head.Text = btn_employee.Text;
         }
 
         private void btn_request_Click(object sender, EventArgs e)

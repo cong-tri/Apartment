@@ -129,7 +129,7 @@
             panel_body.Dock = DockStyle.Fill;
             panel_body.Location = new Point(250, 83);
             panel_body.Name = "panel_body";
-            panel_body.Size = new Size(949, 537);
+            panel_body.Size = new Size(1074, 537);
             panel_body.TabIndex = 4;
             // 
             // label1
@@ -138,7 +138,7 @@
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(949, 537);
+            label1.Size = new Size(1074, 537);
             label1.TabIndex = 0;
             label1.Text = "WELCOME TO APARTMENT MANAGEMENT";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -150,7 +150,7 @@
             panel1_top.Dock = DockStyle.Top;
             panel1_top.Location = new Point(250, 0);
             panel1_top.Name = "panel1_top";
-            panel1_top.Size = new Size(949, 83);
+            panel1_top.Size = new Size(1074, 83);
             panel1_top.TabIndex = 3;
             // 
             // lbl_head
@@ -169,7 +169,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1199, 620);
+            ClientSize = new Size(1324, 620);
             Controls.Add(panel_body);
             Controls.Add(panel1_top);
             Controls.Add(panel_nav);

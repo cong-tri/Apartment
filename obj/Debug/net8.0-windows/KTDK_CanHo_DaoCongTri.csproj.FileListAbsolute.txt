@@ -64,3 +64,6 @@ D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\refint\KTDK_CanHo_
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.pdb
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.genruntimeconfig.cache
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\ref\KTDK_CanHo_DaoCongTri.dll
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEmployee.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormDeleteEmployee.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEditEmployee.resources

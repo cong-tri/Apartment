@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Apartment",
+    "\\Employee",
     "\\Type"
   ],
-  "SelectedNode": "\\Type\\FormType.cs",
+  "SelectedNode": "\\Employee\\FormEmployee.cs",
   "PreviewInSolutionExplorer": false
 }

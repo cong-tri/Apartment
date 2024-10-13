@@ -33,7 +33,7 @@ namespace KTDK_CanHo_DaoCongTri.Models
         public string EmployeeEmail { get; set; } = string.Empty;
 
         [Required]
-        public DateTime EmployeeHireDate { get; set; }
+        public string EmployeeHireDate { get; set; } = string.Empty;
 
         [Required]
         public decimal EmployeeSalary { get; set; }

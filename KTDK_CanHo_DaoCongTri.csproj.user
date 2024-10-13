@@ -10,6 +10,15 @@
     <Compile Update="Apartment\FormEditApartment.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Employee\FormDeleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employee\FormEditEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employee\FormEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Layout\FormLayout.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -13,7 +13,6 @@ namespace KTDK_CanHo_DaoCongTri.Models
     {
         public AppDB() : base(new SqlConnection()
         {
-            //ConnectionString = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={Application.StartupPath}\\db.mdf;Integrated Security=True;Connect Timeout=30"
             ConnectionString = $"Data Source=DESKTOP-79L3NVT;Initial Catalog=Apartment;Integrated Security=True"
         }, true)
         {

@@ -54,7 +54,8 @@ namespace KTDK_CanHo_DaoCongTri
             {
                 var searchKey = txtSearch.Text.Trim().ToLower();
                 var lst = apartments.Where(x => x.ApartmentName.ToLower().Contains(searchKey) ||
-                x.ApartmentNumber.ToString().ToLower().Contains(searchKey)).ToList();
+                x.ApartmentNumber.ToString().ToLower().Contains(searchKey) ||
+                x.ApartmentStatus.ToString().ToLower().Contains(searchKey)).ToList();
                 dataGrv.DataSource = lst;
             }
         }
