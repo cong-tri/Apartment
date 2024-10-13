@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWR8Q++7cO0=",
+  "dgSpecHash": "R3sWepLcHc4=",
   "success": true,
-  "projectFilePath": "D:\\CDSG\\IT\\CTDLVGT\\BT\\KTDK_CanHo_DaoCongTri\\KTDK_CanHo_DaoCongTri.csproj",
+  "projectFilePath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\KTDK_CanHo_DaoCongTri.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dao Cong Tri\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\Dao Cong Tri\\.nuget\\packages\\entityframework.sqlservercompact\\6.5.1\\entityframework.sqlservercompact.6.5.1.nupkg.sha512",

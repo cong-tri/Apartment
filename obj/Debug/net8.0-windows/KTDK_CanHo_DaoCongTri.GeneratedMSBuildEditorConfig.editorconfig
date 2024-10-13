@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KTDK_CanHo_DaoCongTri
-build_property.ProjectDir = D:\CDSG\IT\CTDLVGT\BT\KTDK_CanHo_DaoCongTri\
+build_property.ProjectDir = D:\CDSG\IT\CTDLVGT\project\Apartment\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

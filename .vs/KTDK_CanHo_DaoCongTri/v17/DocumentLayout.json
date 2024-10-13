@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:type\\formtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormType.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
+              "RelativeDocumentMoniker": "Type\\FormType.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
+              "RelativeToolTip": "Type\\FormType.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwDAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T03:07:10.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormType.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs",
+              "RelativeDocumentMoniker": "Type\\FormType.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Type\\FormType.cs [Design]",
+              "RelativeToolTip": "Type\\FormType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T02:49:51.633Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
