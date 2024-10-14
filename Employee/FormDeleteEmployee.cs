@@ -27,6 +27,13 @@ namespace KTDK_CanHo_DaoCongTri.Employee
         {
             if (Id > 0)
             {
+                bool isReferenced = Program.db.MaintenanceRequests.Any(x => x.EmployeeId == Id);
+
+                if (isReferenced)
+                {
+                    MessageBox.Show("This type is referenced in the Request table and cannot be deleted.");
+                    return;
+                }
                 var selected = Program.db.Employees.FirstOrDefault(x => x.EmployeeId == Id);
                 if (selected != null)
                 {

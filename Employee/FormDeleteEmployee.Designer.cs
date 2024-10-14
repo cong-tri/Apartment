@@ -84,6 +84,7 @@
             MaximumSize = new Size(418, 267);
             MinimumSize = new Size(418, 267);
             Name = "FormDeleteEmployee";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormDeleteEmployee";
             ResumeLayout(false);
         }

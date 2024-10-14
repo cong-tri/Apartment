@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\apartment\\formeditapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:apartment\\formeditapartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\customer\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:customer\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\employee\\formemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:employee\\formemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\customer\\formeditcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:customer\\formeditcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\customer\\formeditcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:customer\\formeditcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\user\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:user\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\customer\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:customer\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,34 +29,70 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 570,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 979,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormEditApartment.cs",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormEditApartment.cs",
-              "RelativeDocumentMoniker": "Apartment\\FormEditApartment.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Apartment\\FormEditApartment.cs",
-              "RelativeToolTip": "Apartment\\FormEditApartment.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwHkAAAA9AAAA",
+              "DocumentIndex": 2,
+              "Title": "FormEditCustomer.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormEditCustomer.cs",
+              "RelativeDocumentMoniker": "Customer\\FormEditCustomer.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormEditCustomer.cs",
+              "RelativeToolTip": "Customer\\FormEditCustomer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:58:29.131Z",
+              "WhenOpened": "2024-10-14T09:06:40.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormEmployee.cs",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Employee\\FormEmployee.cs",
-              "RelativeDocumentMoniker": "Employee\\FormEmployee.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Employee\\FormEmployee.cs",
-              "RelativeToolTip": "Employee\\FormEmployee.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Title": "FormEditCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormEditCustomer.cs",
+              "RelativeDocumentMoniker": "Customer\\FormEditCustomer.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormEditCustomer.cs [Design]",
+              "RelativeToolTip": "Customer\\FormEditCustomer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:08:35.862Z",
+              "WhenOpened": "2024-10-14T09:06:38.356Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormCustomer.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormCustomer.cs",
+              "RelativeDocumentMoniker": "Customer\\FormCustomer.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormCustomer.cs",
+              "RelativeToolTip": "Customer\\FormCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:42:21.107Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormCustomer.cs",
+              "RelativeDocumentMoniker": "Customer\\FormCustomer.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Customer\\FormCustomer.cs [Design]",
+              "RelativeToolTip": "Customer\\FormCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:40:53.551Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUser.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\User\\FormUser.cs",
+              "RelativeDocumentMoniker": "User\\FormUser.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\User\\FormUser.cs [Design]",
+              "RelativeToolTip": "User\\FormUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:30:09.8Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

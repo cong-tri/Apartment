@@ -17,11 +17,9 @@ namespace KTDK_CanHo_DaoCongTri.Models
         public int RequestId { get; set; }
 
         [Required]
-        //[ForeignKey("ApartmentId")]
         public int ApartmentId { get; set; }
 
         [Required]
-        //[ForeignKey("EmployeeId")]
         public int EmployeeId { get; set; }
 
         [Required]
@@ -37,7 +35,7 @@ namespace KTDK_CanHo_DaoCongTri.Models
         public string RequestStatus { get; set; } = string.Empty;
 
         [Required]
-        public DateTime RequestCompletionDate { get; set; }
+        public string RequestCompletionDate { get; set; } = string.Empty;
 
         [Required]
         public decimal RequestCost { get; set; }

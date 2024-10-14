@@ -10,6 +10,12 @@
     <Compile Update="Apartment\FormEditApartment.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Customer\FormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Customer\FormEditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Employee\FormDeleteEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,7 +28,22 @@
     <Compile Update="Layout\FormLayout.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Request\FormDeleteRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Request\FormEditRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Request\FormRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Type\FormType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="User\FormEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="User\FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

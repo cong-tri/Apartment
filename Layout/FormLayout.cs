@@ -1,4 +1,7 @@
-﻿using KTDK_CanHo_DaoCongTri.Employee;
+﻿using KTDK_CanHo_DaoCongTri.Customer;
+using KTDK_CanHo_DaoCongTri.Employee;
+using KTDK_CanHo_DaoCongTri.Request;
+using KTDK_CanHo_DaoCongTri.User;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,7 +58,8 @@ namespace KTDK_CanHo_DaoCongTri
 
         private void btn_request_Click(object sender, EventArgs e)
         {
-
+            OpenFormChild(new FormRequest());
+            lbl_head.Text = btn_request.Text;
         }
 
         private void btn_home_Click(object sender, EventArgs e)
@@ -65,6 +69,28 @@ namespace KTDK_CanHo_DaoCongTri
                 currentFormChild.Close();
             }
             lbl_head.Text = "HOME";
+        }
+
+        private void btn_customer_Click(object sender, EventArgs e)
+        {
+            OpenFormChild(new FormCustomer());
+            lbl_head.Text = btn_customer.Text;
+        }
+
+        private void btn_user_Click(object sender, EventArgs e)
+        {
+            OpenFormChild(new FormUser());
+            lbl_head.Text = btn_user.Text;
+        }
+
+        private void btn_transaction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_contract_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

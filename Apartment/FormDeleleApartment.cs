@@ -22,6 +22,13 @@ namespace KTDK_CanHo_DaoCongTri
         {
             if (Id > 0)
             {
+                bool isReferenced = Program.db.MaintenanceRequests.Any(x => x.ApartmentId == Id);
+
+                if (isReferenced)
+                {
+                    MessageBox.Show("This type is referenced in the Request table and cannot be deleted.");
+                    return;
+                }
                 var selectedApartment = Program.db.Apartments.FirstOrDefault(x => x.ApartmentId == Id);
                 if (selectedApartment != null)
                 {

@@ -67,3 +67,10 @@ D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\ref\KTDK_CanHo_Dao
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEmployee.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormDeleteEmployee.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEditEmployee.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormDeleteRequest.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormEditRequest.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormRequest.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.User.FormEditUser.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.User.FormUser.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormCustomer.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormEditCustomer.resources

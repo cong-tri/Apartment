@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             panel_nav = new Panel();
+            btn_contract = new Button();
+            btn_transaction = new Button();
+            btn_user = new Button();
+            btn_customer = new Button();
             btn_request = new Button();
             btn_employee = new Button();
             btn_apartment = new Button();
@@ -46,6 +50,10 @@
             // panel_nav
             // 
             panel_nav.BackColor = Color.Black;
+            panel_nav.Controls.Add(btn_contract);
+            panel_nav.Controls.Add(btn_transaction);
+            panel_nav.Controls.Add(btn_user);
+            panel_nav.Controls.Add(btn_customer);
             panel_nav.Controls.Add(btn_request);
             panel_nav.Controls.Add(btn_employee);
             panel_nav.Controls.Add(btn_apartment);
@@ -54,15 +62,67 @@
             panel_nav.Dock = DockStyle.Left;
             panel_nav.Location = new Point(0, 0);
             panel_nav.Name = "panel_nav";
-            panel_nav.Size = new Size(250, 620);
+            panel_nav.Size = new Size(250, 637);
             panel_nav.TabIndex = 0;
+            // 
+            // btn_contract
+            // 
+            btn_contract.BackColor = SystemColors.Highlight;
+            btn_contract.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_contract.ForeColor = SystemColors.ButtonHighlight;
+            btn_contract.Location = new Point(12, 562);
+            btn_contract.Name = "btn_contract";
+            btn_contract.Size = new Size(223, 60);
+            btn_contract.TabIndex = 5;
+            btn_contract.Text = "Contract";
+            btn_contract.UseVisualStyleBackColor = false;
+            btn_contract.Click += btn_contract_Click;
+            // 
+            // btn_transaction
+            // 
+            btn_transaction.BackColor = SystemColors.Highlight;
+            btn_transaction.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_transaction.ForeColor = SystemColors.ButtonHighlight;
+            btn_transaction.Location = new Point(12, 496);
+            btn_transaction.Name = "btn_transaction";
+            btn_transaction.Size = new Size(223, 60);
+            btn_transaction.TabIndex = 5;
+            btn_transaction.Text = "Transaction";
+            btn_transaction.UseVisualStyleBackColor = false;
+            btn_transaction.Click += btn_transaction_Click;
+            // 
+            // btn_user
+            // 
+            btn_user.BackColor = SystemColors.Highlight;
+            btn_user.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_user.ForeColor = SystemColors.ButtonHighlight;
+            btn_user.Location = new Point(12, 430);
+            btn_user.Name = "btn_user";
+            btn_user.Size = new Size(223, 60);
+            btn_user.TabIndex = 6;
+            btn_user.Text = "User";
+            btn_user.UseVisualStyleBackColor = false;
+            btn_user.Click += btn_user_Click;
+            // 
+            // btn_customer
+            // 
+            btn_customer.BackColor = SystemColors.Highlight;
+            btn_customer.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_customer.ForeColor = SystemColors.ButtonHighlight;
+            btn_customer.Location = new Point(12, 364);
+            btn_customer.Name = "btn_customer";
+            btn_customer.Size = new Size(223, 60);
+            btn_customer.TabIndex = 5;
+            btn_customer.Text = "Customer";
+            btn_customer.UseVisualStyleBackColor = false;
+            btn_customer.Click += btn_customer_Click;
             // 
             // btn_request
             // 
             btn_request.BackColor = SystemColors.Highlight;
             btn_request.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_request.ForeColor = SystemColors.ButtonHighlight;
-            btn_request.Location = new Point(12, 371);
+            btn_request.Location = new Point(12, 298);
             btn_request.Name = "btn_request";
             btn_request.Size = new Size(223, 60);
             btn_request.TabIndex = 4;
@@ -75,7 +135,7 @@
             btn_employee.BackColor = SystemColors.Highlight;
             btn_employee.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_employee.ForeColor = SystemColors.ButtonHighlight;
-            btn_employee.Location = new Point(12, 287);
+            btn_employee.Location = new Point(12, 232);
             btn_employee.Name = "btn_employee";
             btn_employee.Size = new Size(223, 60);
             btn_employee.TabIndex = 3;
@@ -88,7 +148,7 @@
             btn_apartment.BackColor = SystemColors.Highlight;
             btn_apartment.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_apartment.ForeColor = SystemColors.ButtonHighlight;
-            btn_apartment.Location = new Point(12, 200);
+            btn_apartment.Location = new Point(12, 166);
             btn_apartment.Name = "btn_apartment";
             btn_apartment.Size = new Size(223, 60);
             btn_apartment.TabIndex = 2;
@@ -101,7 +161,7 @@
             btn_type.BackColor = SystemColors.Highlight;
             btn_type.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_type.ForeColor = SystemColors.ButtonHighlight;
-            btn_type.Location = new Point(12, 111);
+            btn_type.Location = new Point(12, 100);
             btn_type.Name = "btn_type";
             btn_type.Size = new Size(223, 60);
             btn_type.TabIndex = 1;
@@ -129,7 +189,7 @@
             panel_body.Dock = DockStyle.Fill;
             panel_body.Location = new Point(250, 83);
             panel_body.Name = "panel_body";
-            panel_body.Size = new Size(1074, 537);
+            panel_body.Size = new Size(1074, 554);
             panel_body.TabIndex = 4;
             // 
             // label1
@@ -138,14 +198,14 @@
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(1074, 537);
+            label1.Size = new Size(1074, 554);
             label1.TabIndex = 0;
             label1.Text = "WELCOME TO APARTMENT MANAGEMENT";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel1_top
             // 
-            panel1_top.BackColor = Color.DimGray;
+            panel1_top.BackColor = Color.Silver;
             panel1_top.Controls.Add(lbl_head);
             panel1_top.Dock = DockStyle.Top;
             panel1_top.Location = new Point(250, 0);
@@ -169,12 +229,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1324, 620);
+            ClientSize = new Size(1324, 637);
             Controls.Add(panel_body);
             Controls.Add(panel1_top);
             Controls.Add(panel_nav);
-            MinimumSize = new Size(1048, 667);
+            MinimumSize = new Size(1342, 684);
             Name = "FormLayout";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormLayout";
             panel_nav.ResumeLayout(false);
             panel_body.ResumeLayout(false);
@@ -195,5 +256,9 @@
         private Button btn_employee;
         private Button btn_apartment;
         private Label label1;
+        private Button btn_contract;
+        private Button btn_transaction;
+        private Button btn_user;
+        private Button btn_customer;
     }
 }

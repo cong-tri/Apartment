@@ -28,5 +28,8 @@ namespace KTDK_CanHo_DaoCongTri.Models
         public virtual DbSet<Models.Apartment> Apartments { get; set; }
         public virtual DbSet<Models.Employee> Employees { get; set; }
         public virtual DbSet<Models.MaintenanceRequest> MaintenanceRequests { get; set; }
+        public virtual DbSet<Models.Customer> Customers { get; set; }
+        public virtual DbSet<Models.Users> Users { get; set; }
+
     }
 }

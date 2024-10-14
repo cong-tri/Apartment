@@ -19,6 +19,7 @@ namespace KTDK_CanHo_DaoCongTri
         {
             InitializeComponent();
             LoadData();
+            DisplayAllTypesWithApartmentCounts();
         }
 
         private void LoadData()
@@ -26,6 +27,20 @@ namespace KTDK_CanHo_DaoCongTri
             types = Program.db.Types.ToList();
             dataGrdView_Type.AutoGenerateColumns = false;
             dataGrdView_Type.DataSource = types;
+        }
+        private void DisplayAllTypesWithApartmentCounts()
+        {
+            
+            var typeApartmentCounts = Program.db.Types
+                .Select(type => new
+                {
+                    Type_Name = type.TypeName,
+                    ApartmentCount = Program.db.Apartments.Count(apartment => apartment.TypeId == type.TypeId)
+                })
+                .ToList();
+
+
+            dataGrdViewTypes.DataSource = typeApartmentCounts;
         }
 
         private void btn_save_Click(object sender, EventArgs e)

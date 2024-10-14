@@ -82,6 +82,7 @@
             Controls.Add(btnClose);
             Controls.Add(label1);
             Name = "FormDeleleApartment";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Alert Delete Apartment";
             ResumeLayout(false);
         }

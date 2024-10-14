@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            btnDelete = new Button();
-            btn_save = new Button();
             panel2 = new Panel();
             label1 = new Label();
             txtSearch = new TextBox();
@@ -38,19 +36,26 @@
             txtId = new TextBox();
             label2 = new Label();
             txtName = new TextBox();
+            dataGrdViewTypes = new DataGridView();
             dataGrdView_Type = new DataGridView();
             TypeId = new DataGridViewTextBoxColumn();
             TypeName = new DataGridViewTextBoxColumn();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            btnDelete = new Button();
+            btn_save = new Button();
+            Type_Name = new DataGridViewTextBoxColumn();
+            ApartmentCount = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGrdViewTypes).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGrdView_Type).BeginInit();
+            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.YellowGreen;
-            panel1.Controls.Add(btnDelete);
-            panel1.Controls.Add(btn_save);
+            panel1.Controls.Add(flowLayoutPanel1);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(txtId);
@@ -59,34 +64,8 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(250, 395);
+            panel1.Size = new Size(250, 398);
             panel1.TabIndex = 0;
-            // 
-            // btnDelete
-            // 
-            btnDelete.BackColor = SystemColors.Highlight;
-            btnDelete.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDelete.ForeColor = SystemColors.ButtonHighlight;
-            btnDelete.Location = new Point(18, 316);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(213, 49);
-            btnDelete.TabIndex = 8;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = false;
-            btnDelete.Click += btnDelete_Click;
-            // 
-            // btn_save
-            // 
-            btn_save.BackColor = SystemColors.Highlight;
-            btn_save.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_save.ForeColor = SystemColors.ButtonHighlight;
-            btn_save.Location = new Point(18, 252);
-            btn_save.Name = "btn_save";
-            btn_save.Size = new Size(213, 49);
-            btn_save.TabIndex = 7;
-            btn_save.Text = "Add";
-            btn_save.UseVisualStyleBackColor = false;
-            btn_save.Click += btn_save_Click;
             // 
             // panel2
             // 
@@ -159,6 +138,17 @@
             txtName.Size = new Size(125, 38);
             txtName.TabIndex = 2;
             // 
+            // dataGrdViewTypes
+            // 
+            dataGrdViewTypes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGrdViewTypes.Columns.AddRange(new DataGridViewColumn[] { Type_Name, ApartmentCount });
+            dataGrdViewTypes.Dock = DockStyle.Bottom;
+            dataGrdViewTypes.Location = new Point(250, 244);
+            dataGrdViewTypes.Name = "dataGrdViewTypes";
+            dataGrdViewTypes.RowHeadersWidth = 51;
+            dataGrdViewTypes.Size = new Size(550, 154);
+            dataGrdViewTypes.TabIndex = 1;
+            // 
             // dataGrdView_Type
             // 
             dataGrdView_Type.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -167,9 +157,8 @@
             dataGrdView_Type.Location = new Point(250, 0);
             dataGrdView_Type.Name = "dataGrdView_Type";
             dataGrdView_Type.RowHeadersWidth = 51;
-            dataGrdView_Type.Size = new Size(550, 395);
-            dataGrdView_Type.TabIndex = 2;
-            dataGrdView_Type.CellClick += dataGrdView_Type_CellClick;
+            dataGrdView_Type.Size = new Size(550, 244);
+            dataGrdView_Type.TabIndex = 3;
             // 
             // TypeId
             // 
@@ -187,12 +176,65 @@
             TypeName.MinimumWidth = 6;
             TypeName.Name = "TypeName";
             // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Controls.Add(btn_save);
+            flowLayoutPanel1.Controls.Add(btnDelete);
+            flowLayoutPanel1.Dock = DockStyle.Bottom;
+            flowLayoutPanel1.Location = new Point(0, 249);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(250, 149);
+            flowLayoutPanel1.TabIndex = 9;
+            // 
+            // btnDelete
+            // 
+            btnDelete.BackColor = SystemColors.Highlight;
+            btnDelete.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDelete.ForeColor = SystemColors.ButtonHighlight;
+            btnDelete.Location = new Point(3, 58);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(244, 49);
+            btnDelete.TabIndex = 8;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
+            // 
+            // btn_save
+            // 
+            btn_save.BackColor = SystemColors.Highlight;
+            btn_save.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_save.ForeColor = SystemColors.ButtonHighlight;
+            btn_save.Location = new Point(3, 3);
+            btn_save.Name = "btn_save";
+            btn_save.Size = new Size(244, 49);
+            btn_save.TabIndex = 7;
+            btn_save.Text = "Add";
+            btn_save.UseVisualStyleBackColor = false;
+            btn_save.Click += btn_save_Click;
+            // 
+            // Type_Name
+            // 
+            Type_Name.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Type_Name.DataPropertyName = "Type_Name";
+            Type_Name.HeaderText = "Type Name";
+            Type_Name.MinimumWidth = 6;
+            Type_Name.Name = "Type_Name";
+            // 
+            // ApartmentCount
+            // 
+            ApartmentCount.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            ApartmentCount.DataPropertyName = "ApartmentCount";
+            ApartmentCount.HeaderText = "Apartment Count";
+            ApartmentCount.MinimumWidth = 6;
+            ApartmentCount.Name = "ApartmentCount";
+            // 
             // FormType
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 395);
+            ClientSize = new Size(800, 398);
             Controls.Add(dataGrdView_Type);
+            Controls.Add(dataGrdViewTypes);
             Controls.Add(panel1);
             Name = "FormType";
             Text = "FormType";
@@ -200,14 +242,15 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGrdViewTypes).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGrdView_Type).EndInit();
+            flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private Button btn_save;
         private Panel panel2;
         private Label label1;
         private TextBox txtSearch;
@@ -215,9 +258,14 @@
         private TextBox txtId;
         private Label label2;
         private TextBox txtName;
+        private DataGridView dataGrdViewTypes;
         private DataGridView dataGrdView_Type;
         private DataGridViewTextBoxColumn TypeId;
         private DataGridViewTextBoxColumn TypeName;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Button btn_save;
         private Button btnDelete;
+        private DataGridViewTextBoxColumn Type_Name;
+        private DataGridViewTextBoxColumn ApartmentCount;
     }
 }

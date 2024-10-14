@@ -298,6 +298,7 @@
             MaximumSize = new Size(818, 731);
             MinimumSize = new Size(818, 731);
             Name = "FormEditEmployee";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEdit";
             Load += FormEditEmployee_Load;
             panel2.ResumeLayout(false);
