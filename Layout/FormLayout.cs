@@ -1,6 +1,8 @@
-﻿using KTDK_CanHo_DaoCongTri.Customer;
+﻿using KTDK_CanHo_DaoCongTri.Contract;
+using KTDK_CanHo_DaoCongTri.Customer;
 using KTDK_CanHo_DaoCongTri.Employee;
 using KTDK_CanHo_DaoCongTri.Request;
+using KTDK_CanHo_DaoCongTri.Transaction;
 using KTDK_CanHo_DaoCongTri.User;
 using System;
 using System.Collections.Generic;
@@ -85,12 +87,14 @@ namespace KTDK_CanHo_DaoCongTri
 
         private void btn_transaction_Click(object sender, EventArgs e)
         {
-
+            OpenFormChild(new Frm_transactioncs());
+            lbl_head.Text = btn_transaction.Text;
         }
 
         private void btn_contract_Click(object sender, EventArgs e)
         {
-
+            OpenFormChild(new FormContract());
+            lbl_head.Text = btn_contract.Text;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace KTDK_CanHo_DaoCongTri.Models
     {
         public AppDB() : base(new SqlConnection()
         {
-            ConnectionString = $"Data Source=LAPTOP-OLAT629J\\SQLEXPRESS01;Initial Catalog=db_Apartment;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
+            ConnectionString = $"Data Source=DESKTOP-79L3NVT;Initial Catalog=Apartment;Integrated Security=True;TrustServerCertificate=True"
         }, true)
         {
         }
@@ -30,6 +30,8 @@ namespace KTDK_CanHo_DaoCongTri.Models
         public virtual DbSet<Models.MaintenanceRequest> MaintenanceRequests { get; set; }
         public virtual DbSet<Models.Customer> Customers { get; set; }
         public virtual DbSet<Models.Users> Users { get; set; }
+        public virtual DbSet<Models.Contract> Contracts { get; set; }
+        public virtual DbSet<Models.Transaction> Transactions { get; set; }
 
     }
 }

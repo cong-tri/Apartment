@@ -1,6 +1,6 @@
 ﻿namespace KTDK_CanHo_DaoCongTri.Contract
 {
-    partial class Form1
+    partial class FormEditContract
     {
         /// <summary>
         /// Required designer variable.
@@ -211,6 +211,7 @@
             add_btn.TabIndex = 18;
             add_btn.Text = "SAVE";
             add_btn.UseVisualStyleBackColor = true;
+            add_btn.Click += add_btn_Click;
             // 
             // button1
             // 
@@ -220,6 +221,7 @@
             button1.TabIndex = 19;
             button1.Text = "CLOSE";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label10
             // 
@@ -240,7 +242,7 @@
             extend_cbx.Text = "Extend";
             extend_cbx.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FormEditContract
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -266,8 +268,10 @@
             Controls.Add(contractid_tb);
             Controls.Add(label1);
             Controls.Add(panel1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "FormEditContract";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form Edit Contract";
+            Load += FormEditContract_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

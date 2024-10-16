@@ -42,7 +42,7 @@
             ContractId = new DataGridViewTextBoxColumn();
             Amount = new DataGridViewTextBoxColumn();
             TransactionDate = new DataGridViewTextBoxColumn();
-            Decription = new DataGridViewTextBoxColumn();
+            Description = new DataGridViewTextBoxColumn();
             TransactionType = new DataGridViewTextBoxColumn();
             PaymentMethod = new DataGridViewTextBoxColumn();
             IssuedBy = new DataGridViewTextBoxColumn();
@@ -61,7 +61,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1299, 61);
+            panel1.Size = new Size(1034, 61);
             panel1.TabIndex = 1;
             // 
             // panel2
@@ -69,9 +69,10 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(searchkey_tb);
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(860, 3);
+            panel2.Dock = DockStyle.Right;
+            panel2.Location = new Point(594, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(440, 55);
+            panel2.Size = new Size(440, 61);
             panel2.TabIndex = 4;
             // 
             // label2
@@ -91,6 +92,7 @@
             searchkey_tb.Name = "searchkey_tb";
             searchkey_tb.Size = new Size(294, 27);
             searchkey_tb.TabIndex = 1;
+            searchkey_tb.KeyPress += searchkey_tb_KeyPress;
             // 
             // label1
             // 
@@ -111,6 +113,7 @@
             delete_btn.TabIndex = 3;
             delete_btn.Text = "DELETE";
             delete_btn.UseVisualStyleBackColor = true;
+            delete_btn.Click += delete_btn_Click;
             // 
             // update_btn
             // 
@@ -120,6 +123,7 @@
             update_btn.TabIndex = 2;
             update_btn.Text = "UPDATE";
             update_btn.UseVisualStyleBackColor = true;
+            update_btn.Click += update_btn_Click;
             // 
             // add_btn
             // 
@@ -129,34 +133,36 @@
             add_btn.TabIndex = 1;
             add_btn.Text = "ADD";
             add_btn.UseVisualStyleBackColor = true;
+            add_btn.Click += add_btn_Click;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Dock = DockStyle.Top;
+            label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Red;
-            label3.Location = new Point(491, 73);
+            label3.Location = new Point(0, 61);
             label3.Name = "label3";
-            label3.Size = new Size(300, 31);
+            label3.Size = new Size(1034, 59);
             label3.TabIndex = 3;
             label3.Text = "FINANCIAL TRANSACTION";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { TransactionId, ContractId, Amount, TransactionDate, Decription, TransactionType, PaymentMethod, IssuedBy });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { TransactionId, ContractId, Amount, TransactionDate, Description, TransactionType, PaymentMethod, IssuedBy });
             dataGridView1.Dock = DockStyle.Bottom;
             dataGridView1.Location = new Point(0, 123);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1299, 395);
+            dataGridView1.Size = new Size(1034, 395);
             dataGridView1.TabIndex = 4;
             // 
             // TransactionId
             // 
             TransactionId.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             TransactionId.DataPropertyName = "TransactionId";
-            TransactionId.HeaderText = "TransactionId";
+            TransactionId.HeaderText = "Id";
             TransactionId.MinimumWidth = 6;
             TransactionId.Name = "TransactionId";
             // 
@@ -184,13 +190,13 @@
             TransactionDate.MinimumWidth = 6;
             TransactionDate.Name = "TransactionDate";
             // 
-            // Decription
+            // Description
             // 
-            Decription.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Decription.DataPropertyName = "Decription";
-            Decription.HeaderText = "Decription";
-            Decription.MinimumWidth = 6;
-            Decription.Name = "Decription";
+            Description.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Description.DataPropertyName = "Description";
+            Description.HeaderText = "Description";
+            Description.MinimumWidth = 6;
+            Description.Name = "Description";
             // 
             // TransactionType
             // 
@@ -220,7 +226,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1299, 518);
+            ClientSize = new Size(1034, 518);
             Controls.Add(dataGridView1);
             Controls.Add(label3);
             Controls.Add(panel1);
@@ -231,7 +237,6 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -250,7 +255,7 @@
         private DataGridViewTextBoxColumn ContractId;
         private DataGridViewTextBoxColumn Amount;
         private DataGridViewTextBoxColumn TransactionDate;
-        private DataGridViewTextBoxColumn Decription;
+        private DataGridViewTextBoxColumn Description;
         private DataGridViewTextBoxColumn TransactionType;
         private DataGridViewTextBoxColumn PaymentMethod;
         private DataGridViewTextBoxColumn IssuedBy;

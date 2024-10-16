@@ -102,3 +102,9 @@ D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.source
 D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.dll
 D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\refint\KTDK_CanHo_DaoCongTri.dll
 D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.pdb
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Authen.FormLogin.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Authen.FormRegister.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Contract.FormContract.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Transaction.Frm_transactioncs.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Contract.FormEditContract.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Transaction.FormEditTransaction.resources

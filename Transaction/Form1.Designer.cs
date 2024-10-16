@@ -1,6 +1,6 @@
 ﻿namespace KTDK_CanHo_DaoCongTri.Transaction
 {
-    partial class Form1
+    partial class FormEditTransaction
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             button1 = new Button();
             add_btn = new Button();
-            textBox7 = new TextBox();
+            issuedby_db = new TextBox();
             issuedBy = new Label();
             transactiondate_tb = new TextBox();
             label4 = new Label();
@@ -59,6 +59,7 @@
             button1.TabIndex = 38;
             button1.Text = "CLOSE";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // add_btn
             // 
@@ -68,13 +69,14 @@
             add_btn.TabIndex = 37;
             add_btn.Text = "SAVE";
             add_btn.UseVisualStyleBackColor = true;
+            add_btn.Click += add_btn_Click;
             // 
-            // textBox7
+            // issuedby_db
             // 
-            textBox7.Location = new Point(128, 390);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(390, 27);
-            textBox7.TabIndex = 36;
+            issuedby_db.Location = new Point(128, 390);
+            issuedby_db.Name = "issuedby_db";
+            issuedby_db.Size = new Size(390, 27);
+            issuedby_db.TabIndex = 36;
             // 
             // issuedBy
             // 
@@ -219,14 +221,14 @@
             panel1.Size = new Size(537, 57);
             panel1.TabIndex = 20;
             // 
-            // Form1
+            // FormEditTransaction
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(537, 506);
             Controls.Add(button1);
             Controls.Add(add_btn);
-            Controls.Add(textBox7);
+            Controls.Add(issuedby_db);
             Controls.Add(issuedBy);
             Controls.Add(transactiondate_tb);
             Controls.Add(label4);
@@ -243,8 +245,10 @@
             Controls.Add(label5);
             Controls.Add(label1);
             Controls.Add(panel1);
-            Name = "Form1";
+            Name = "FormEditTransaction";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -255,7 +259,7 @@
 
         private Button button1;
         private Button add_btn;
-        private TextBox textBox7;
+        private TextBox issuedby_db;
         private Label issuedBy;
         private TextBox transactiondate_tb;
         private Label label4;

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\Apartment\\KTDK_CanHo_DaoCongTri.csproj": {}
+    "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\KTDK_CanHo_DaoCongTri.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\Apartment\\KTDK_CanHo_DaoCongTri.csproj": {
+    "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\KTDK_CanHo_DaoCongTri.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\Apartment\\KTDK_CanHo_DaoCongTri.csproj",
+        "projectUniqueName": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\KTDK_CanHo_DaoCongTri.csproj",
         "projectName": "KTDK_CanHo_DaoCongTri",
-        "projectPath": "D:\\Visual Studio\\Apartment\\KTDK_CanHo_DaoCongTri.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\Apartment\\obj\\",
+        "projectPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\KTDK_CanHo_DaoCongTri.csproj",
+        "packagesPath": "C:\\Users\\Dao Cong Tri\\.nuget\\packages\\",
+        "outputPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dao Cong Tri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

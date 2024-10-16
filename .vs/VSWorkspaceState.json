@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Authen",
-    "\\Contract"
+    "\\Transaction"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\Authen\\FormLogin.cs",
-=======
->>>>>>> Stashed changes
+  "SelectedNode": "\\Transaction\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

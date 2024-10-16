@@ -93,6 +93,7 @@
             searchkey_tb.Name = "searchkey_tb";
             searchkey_tb.Size = new Size(294, 27);
             searchkey_tb.TabIndex = 1;
+            searchkey_tb.KeyPress += searchkey_tb_KeyPress;
             // 
             // label1
             // 
@@ -113,6 +114,7 @@
             delete_btn.TabIndex = 3;
             delete_btn.Text = "DELETE";
             delete_btn.UseVisualStyleBackColor = true;
+            delete_btn.Click += delete_btn_Click;
             // 
             // update_btn
             // 
@@ -122,6 +124,7 @@
             update_btn.TabIndex = 2;
             update_btn.Text = "UPDATE";
             update_btn.UseVisualStyleBackColor = true;
+            update_btn.Click += update_btn_Click;
             // 
             // add_btn
             // 
@@ -131,6 +134,7 @@
             add_btn.TabIndex = 1;
             add_btn.Text = "ADD";
             add_btn.UseVisualStyleBackColor = true;
+            add_btn.Click += add_btn_Click;
             // 
             // label3
             // 
@@ -153,13 +157,12 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(1300, 511);
             dataGridView1.TabIndex = 3;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // ContractId
             // 
             ContractId.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             ContractId.DataPropertyName = "ContractId";
-            ContractId.HeaderText = "ContractId";
+            ContractId.HeaderText = "Id";
             ContractId.MinimumWidth = 6;
             ContractId.Name = "ContractId";
             // 
@@ -207,7 +210,7 @@
             // 
             DepositAmount.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             DepositAmount.DataPropertyName = "DepositAmount";
-            DepositAmount.HeaderText = "DepositAmount";
+            DepositAmount.HeaderText = "Amount";
             DepositAmount.MinimumWidth = 6;
             DepositAmount.Name = "DepositAmount";
             // 
@@ -215,7 +218,7 @@
             // 
             ContractStatus.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             ContractStatus.DataPropertyName = "ContractStatus";
-            ContractStatus.HeaderText = "ContractStatus";
+            ContractStatus.HeaderText = "Status";
             ContractStatus.MinimumWidth = 6;
             ContractStatus.Name = "ContractStatus";
             // 
@@ -223,7 +226,7 @@
             // 
             RenewalOption.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             RenewalOption.DataPropertyName = "RenewalOption";
-            RenewalOption.HeaderText = "RenewalOption";
+            RenewalOption.HeaderText = "Option";
             RenewalOption.MinimumWidth = 6;
             RenewalOption.Name = "RenewalOption";
             // 
