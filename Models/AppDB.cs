@@ -13,7 +13,7 @@ namespace KTDK_CanHo_DaoCongTri.Models
     {
         public AppDB() : base(new SqlConnection()
         {
-            ConnectionString = $"Data Source=DESKTOP-79L3NVT;Initial Catalog=Apartment;Integrated Security=True"
+            ConnectionString = $"Data Source=LAPTOP-OLAT629J\\SQLEXPRESS01;Initial Catalog=db_Apartment;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
         }, true)
         {
         }

@@ -16,6 +16,9 @@
     <Compile Update="Authen\FormRegister.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Contract\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Contract\FormContract.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -44,6 +47,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Request\FormRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transaction\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Transaction\Frm_transactioncs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Type\FormType.cs">

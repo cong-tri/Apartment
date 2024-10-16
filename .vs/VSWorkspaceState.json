@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Apartment",
-    "\\Customer",
-    "\\Employee",
-    "\\Request",
-    "\\Type"
+    "\\Authen",
+    "\\Contract"
   ],
-  "SelectedNode": "\\KTDK_CanHo_DaoCongTri.sln",
+  "SelectedNode": "\\Authen\\FormLogin.cs",
   "PreviewInSolutionExplorer": false
 }
