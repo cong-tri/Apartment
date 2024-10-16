@@ -74,3 +74,31 @@ D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCong
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.User.FormUser.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormCustomer.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormEditCustomer.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.csproj.AssemblyReference.cache
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.FormApartment.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.FormDeleleApartment.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.FormEditApartment.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Authen.FormLogin.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Authen.FormRegister.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Contract.FormContract.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormCustomer.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Customer.FormEditCustomer.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormDeleteEmployee.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEditEmployee.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Employee.FormEmployee.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.FormLayout.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormDeleteRequest.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormEditRequest.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Request.FormRequest.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.FormType.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.User.FormEditUser.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.User.FormUser.resources
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.csproj.GenerateResource.cache
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.AssemblyInfoInputs.cache
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.AssemblyInfo.cs
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.sourcelink.json
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.dll
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\refint\KTDK_CanHo_DaoCongTri.dll
+D:\Visual Studio\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.pdb
