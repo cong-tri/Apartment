@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Apartment",
+    "\\Customer",
     "\\Employee",
     "\\Request",
     "\\Type"
   ],
-  "SelectedNode": "\\Request\\FormRequest.cs",
+  "SelectedNode": "\\KTDK_CanHo_DaoCongTri.sln",
   "PreviewInSolutionExplorer": false
 }

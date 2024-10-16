@@ -139,6 +139,7 @@
             btnExit.TabIndex = 1;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // label8
             // 
@@ -272,6 +273,7 @@
             Name = "FormEditUser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEditUser";
+            Load += FormEditUser_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

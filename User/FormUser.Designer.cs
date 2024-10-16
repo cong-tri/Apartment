@@ -41,7 +41,6 @@
             txtSearch = new TextBox();
             label2 = new Label();
             panel1 = new Panel();
-            btnExit = new Button();
             label1 = new Label();
             btnDelete = new Button();
             btnEdit = new Button();
@@ -160,7 +159,6 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.Highlight;
-            panel1.Controls.Add(btnExit);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnDelete);
             panel1.Controls.Add(btnEdit);
@@ -170,18 +168,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(151, 459);
             panel1.TabIndex = 3;
-            // 
-            // btnExit
-            // 
-            btnExit.Font = new Font("Segoe UI Historic", 13.8F);
-            btnExit.ImageAlign = ContentAlignment.MiddleLeft;
-            btnExit.Location = new Point(12, 263);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(121, 51);
-            btnExit.TabIndex = 6;
-            btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = true;
-            btnExit.Click += btnExit_Click;
             // 
             // label1
             // 
@@ -264,7 +250,6 @@
         private TextBox txtSearch;
         private Label label2;
         private Panel panel1;
-        private Button btnExit;
         private Label label1;
         private Button btnDelete;
         private Button btnEdit;

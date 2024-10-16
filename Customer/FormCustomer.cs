@@ -54,6 +54,13 @@ namespace KTDK_CanHo_DaoCongTri.Customer
             if (datagvC.CurrentRow != null)
             {
                 var selectedCustomerId = Convert.ToInt32(datagvC.CurrentRow.Cells["CustomerId"].Value);
+                bool isReferenced = Program.db.Users.Any(x => x.UserId == selectedCustomerId);
+
+                if (isReferenced)
+                {
+                    MessageBox.Show("This type is referenced in the User table and cannot be deleted.");
+                    return;
+                }
                 var selectedCustomer = Program.db.Customers.FirstOrDefault(x => x.CustomerId == selectedCustomerId);
                 if (selectedCustomer != null)
                 {
@@ -69,18 +76,8 @@ namespace KTDK_CanHo_DaoCongTri.Customer
             else
             {
                 MessageBox.Show("Please choose customer which you want to delete!");
+                return;
             }
-        }
-
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-            FormUser user = new FormUser();
-            user.ShowDialog();
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
