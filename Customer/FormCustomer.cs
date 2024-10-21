@@ -79,5 +79,15 @@ namespace KTDK_CanHo_DaoCongTri.Customer
                 return;
             }
         }
+
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                var searchKey = txtSearch.Text.Trim().ToLower();
+                var lst = Program.db.Customers.Where(x => (x.Name + " " + x.Email + " " + x.Phone).ToLower().Contains(searchKey)).ToList();
+                datagvC.DataSource = lst;
+            }
+        }
     }
 }

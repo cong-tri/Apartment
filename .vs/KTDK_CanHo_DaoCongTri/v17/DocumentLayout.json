@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\transaction\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:transaction\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\authen\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:authen\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\transaction\\frm_transactioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:transaction\\frm_transactioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\authen\\taikhoancs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:authen\\taikhoancs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\transaction\\frm_transactioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:transaction\\frm_transactioncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\authen\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:authen\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\layout\\formlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:layout\\formlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\layout\\formlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:layout\\formlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\transaction\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:transaction\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|d:\\cdsg\\it\\ctdlvgt\\project\\apartment\\authen\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE00CF80-F41A-4C41-9916-62224193B603}|KTDK_CanHo_DaoCongTri.csproj|solutionrelative:authen\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 979,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,77 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormLayout.cs",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Layout\\FormLayout.cs",
-              "RelativeDocumentMoniker": "Layout\\FormLayout.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Layout\\FormLayout.cs",
-              "RelativeToolTip": "Layout\\FormLayout.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAIwFoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:40:35.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormLayout.cs [Design]",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Layout\\FormLayout.cs",
-              "RelativeDocumentMoniker": "Layout\\FormLayout.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Layout\\FormLayout.cs [Design]",
-              "RelativeToolTip": "Layout\\FormLayout.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:40:33.072Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Form1.cs",
-              "RelativeDocumentMoniker": "Transaction\\Form1.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Form1.cs",
-              "RelativeToolTip": "Transaction\\Form1.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAUwFUAAABJAAAA",
+              "Title": "Modify.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\Modify.cs",
+              "RelativeDocumentMoniker": "Authen\\Modify.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\Modify.cs",
+              "RelativeToolTip": "Authen\\Modify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:39:29.595Z",
+              "WhenOpened": "2024-10-21T01:37:38.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Frm_transactioncs.cs",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Frm_transactioncs.cs",
-              "RelativeDocumentMoniker": "Transaction\\Frm_transactioncs.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Frm_transactioncs.cs",
-              "RelativeToolTip": "Transaction\\Frm_transactioncs.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAqwB0AAAAMAAAA",
+              "Title": "TaiKhoancs.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\TaiKhoancs.cs",
+              "RelativeDocumentMoniker": "Authen\\TaiKhoancs.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\TaiKhoancs.cs",
+              "RelativeToolTip": "Authen\\TaiKhoancs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:38:15.638Z",
+              "WhenOpened": "2024-10-21T01:37:05.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Frm_transactioncs.cs [Design]",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Frm_transactioncs.cs",
-              "RelativeDocumentMoniker": "Transaction\\Frm_transactioncs.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Frm_transactioncs.cs [Design]",
-              "RelativeToolTip": "Transaction\\Frm_transactioncs.cs [Design]",
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Authen\\FormLogin.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\FormLogin.cs",
+              "RelativeToolTip": "Authen\\FormLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:35:34.607Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-21T01:32:47.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Form1.cs",
-              "RelativeDocumentMoniker": "Transaction\\Form1.cs",
-              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Transaction\\Form1.cs [Design]",
-              "RelativeToolTip": "Transaction\\Form1.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Authen\\FormLogin.cs",
+              "ToolTip": "D:\\CDSG\\IT\\CTDLVGT\\project\\Apartment\\Authen\\FormLogin.cs [Design]",
+              "RelativeToolTip": "Authen\\FormLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:04:45.109Z",
+              "WhenOpened": "2024-10-21T01:32:44.718Z",
               "EditorCaption": " [Design]"
             }
           ]

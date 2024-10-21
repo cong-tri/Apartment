@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label7 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            resgister_btn = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -36,11 +40,8 @@
             password_tb = new TextBox();
             checkBox1 = new CheckBox();
             login_btn = new Button();
-            resgister_btn = new Button();
-            label4 = new Label();
-            label5 = new Label();
             label6 = new Label();
-            label7 = new Label();
+            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,6 +57,52 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(306, 464);
             panel1.TabIndex = 0;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Stencil", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = SystemColors.ButtonHighlight;
+            label7.Location = new Point(105, 253);
+            label7.Name = "label7";
+            label7.Size = new Size(83, 21);
+            label7.TabIndex = 10;
+            label7.Text = "SYSTEM";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.ForeColor = SystemColors.ButtonHighlight;
+            label5.Location = new Point(79, 400);
+            label5.Name = "label5";
+            label5.Size = new Size(156, 20);
+            label5.TabIndex = 9;
+            label5.Text = "Register your account ";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Stencil", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.ButtonHighlight;
+            label4.Location = new Point(28, 232);
+            label4.Name = "label4";
+            label4.Size = new Size(258, 21);
+            label4.TabIndex = 8;
+            label4.Text = "APARTMENT MANAGEMENT";
+            // 
+            // resgister_btn
+            // 
+            resgister_btn.BackColor = SystemColors.ActiveCaptionText;
+            resgister_btn.Dock = DockStyle.Bottom;
+            resgister_btn.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            resgister_btn.ForeColor = SystemColors.ButtonHighlight;
+            resgister_btn.Location = new Point(0, 423);
+            resgister_btn.Name = "resgister_btn";
+            resgister_btn.Size = new Size(306, 41);
+            resgister_btn.TabIndex = 8;
+            resgister_btn.Text = "REGISTER";
+            resgister_btn.UseVisualStyleBackColor = false;
+            resgister_btn.Click += resgister_btn_Click;
             // 
             // label1
             // 
@@ -111,6 +158,7 @@
             checkBox1.TabIndex = 6;
             checkBox1.Text = "Show pass word";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // login_btn
             // 
@@ -124,40 +172,7 @@
             login_btn.TabIndex = 7;
             login_btn.Text = "LOGIN";
             login_btn.UseVisualStyleBackColor = false;
-            // 
-            // resgister_btn
-            // 
-            resgister_btn.BackColor = SystemColors.ActiveCaptionText;
-            resgister_btn.Dock = DockStyle.Bottom;
-            resgister_btn.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            resgister_btn.ForeColor = SystemColors.ButtonHighlight;
-            resgister_btn.Location = new Point(0, 423);
-            resgister_btn.Name = "resgister_btn";
-            resgister_btn.Size = new Size(306, 41);
-            resgister_btn.TabIndex = 8;
-            resgister_btn.Text = "REGISTER";
-            resgister_btn.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Stencil", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(28, 232);
-            label4.Name = "label4";
-            label4.Size = new Size(258, 21);
-            label4.TabIndex = 8;
-            label4.Text = "APARTMENT MANAGEMENT";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.ForeColor = SystemColors.ButtonHighlight;
-            label5.Location = new Point(79, 400);
-            label5.Name = "label5";
-            label5.Size = new Size(156, 20);
-            label5.TabIndex = 9;
-            label5.Text = "Register your account ";
+            login_btn.Click += login_btn_Click;
             // 
             // label6
             // 
@@ -170,22 +185,23 @@
             label6.TabIndex = 10;
             label6.Text = "X";
             // 
-            // label7
+            // linkLabel1
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Stencil", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = SystemColors.ButtonHighlight;
-            label7.Location = new Point(105, 253);
-            label7.Name = "label7";
-            label7.Size = new Size(83, 21);
-            label7.TabIndex = 10;
-            label7.Text = "SYSTEM";
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(312, 318);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(120, 20);
+            linkLabel1.TabIndex = 11;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Fogot Password?";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // FormLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(633, 464);
+            Controls.Add(linkLabel1);
             Controls.Add(label6);
             Controls.Add(login_btn);
             Controls.Add(checkBox1);
@@ -218,5 +234,6 @@
         private Button login_btn;
         private Label label6;
         private Label label7;
+        private LinkLabel linkLabel1;
     }
 }

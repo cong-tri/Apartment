@@ -141,8 +141,9 @@
             // 
             txtSearch.Location = new Point(109, 20);
             txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(709, 27);
+            txtSearch.Size = new Size(630, 27);
             txtSearch.TabIndex = 1;
+            txtSearch.KeyPress += txtSearch_KeyPress;
             // 
             // panel2
             // 

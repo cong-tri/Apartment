@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             login_btn = new Button();
-            checkBox1 = new CheckBox();
+            showpw_chx = new CheckBox();
             password_tb = new TextBox();
             username_tb = new TextBox();
             label3 = new Label();
@@ -41,6 +41,10 @@
             label4 = new Label();
             resgister_btn = new Button();
             label6 = new Label();
+            email_tb = new TextBox();
+            passwordexcept_tb = new TextBox();
+            label8 = new Label();
+            label9 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,20 +60,22 @@
             login_btn.TabIndex = 18;
             login_btn.Text = "LOGIN";
             login_btn.UseVisualStyleBackColor = false;
+            login_btn.Click += login_btn_Click;
             // 
-            // checkBox1
+            // showpw_chx
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(485, 305);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(138, 24);
-            checkBox1.TabIndex = 17;
-            checkBox1.Text = "Show pass word";
-            checkBox1.UseVisualStyleBackColor = true;
+            showpw_chx.AutoSize = true;
+            showpw_chx.Location = new Point(493, 399);
+            showpw_chx.Name = "showpw_chx";
+            showpw_chx.Size = new Size(138, 24);
+            showpw_chx.TabIndex = 17;
+            showpw_chx.Text = "Show pass word";
+            showpw_chx.UseVisualStyleBackColor = true;
+            showpw_chx.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // password_tb
             // 
-            password_tb.Location = new Point(312, 262);
+            password_tb.Location = new Point(312, 216);
             password_tb.Multiline = true;
             password_tb.Name = "password_tb";
             password_tb.Size = new Size(309, 37);
@@ -86,7 +92,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(312, 239);
+            label3.Location = new Point(312, 193);
             label3.Name = "label3";
             label3.Size = new Size(70, 20);
             label3.TabIndex = 14;
@@ -169,6 +175,7 @@
             resgister_btn.TabIndex = 8;
             resgister_btn.Text = "LOGIN";
             resgister_btn.UseVisualStyleBackColor = false;
+            resgister_btn.Click += resgister_btn_Click;
             // 
             // label6
             // 
@@ -181,13 +188,51 @@
             label6.TabIndex = 19;
             label6.Text = "X";
             // 
+            // email_tb
+            // 
+            email_tb.Location = new Point(312, 351);
+            email_tb.Multiline = true;
+            email_tb.Name = "email_tb";
+            email_tb.Size = new Size(309, 37);
+            email_tb.TabIndex = 23;
+            // 
+            // passwordexcept_tb
+            // 
+            passwordexcept_tb.Location = new Point(312, 284);
+            passwordexcept_tb.Multiline = true;
+            passwordexcept_tb.Name = "passwordexcept_tb";
+            passwordexcept_tb.Size = new Size(309, 34);
+            passwordexcept_tb.TabIndex = 22;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(312, 328);
+            label8.Name = "label8";
+            label8.Size = new Size(46, 20);
+            label8.TabIndex = 21;
+            label8.Text = "Email";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(312, 261);
+            label9.Name = "label9";
+            label9.Size = new Size(118, 20);
+            label9.TabIndex = 20;
+            label9.Text = "Password Except";
+            // 
             // FormRegister
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(638, 482);
+            Controls.Add(email_tb);
+            Controls.Add(passwordexcept_tb);
+            Controls.Add(label8);
+            Controls.Add(label9);
             Controls.Add(login_btn);
-            Controls.Add(checkBox1);
+            Controls.Add(showpw_chx);
             Controls.Add(password_tb);
             Controls.Add(username_tb);
             Controls.Add(label3);
@@ -206,7 +251,7 @@
         #endregion
 
         private Button login_btn;
-        private CheckBox checkBox1;
+        private CheckBox showpw_chx;
         private TextBox password_tb;
         private TextBox username_tb;
         private Label label3;
@@ -218,5 +263,9 @@
         private Label label4;
         private Button resgister_btn;
         private Label label6;
+        private TextBox email_tb;
+        private TextBox passwordexcept_tb;
+        private Label label8;
+        private Label label9;
     }
 }

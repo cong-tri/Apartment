@@ -1,3 +1,4 @@
+using KTDK_CanHo_DaoCongTri.Authen;
 using KTDK_CanHo_DaoCongTri.Models;
 
 namespace KTDK_CanHo_DaoCongTri
@@ -14,7 +15,7 @@ namespace KTDK_CanHo_DaoCongTri
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormLayout());
+            Application.Run(new FormLogin());
         }
     }
 }

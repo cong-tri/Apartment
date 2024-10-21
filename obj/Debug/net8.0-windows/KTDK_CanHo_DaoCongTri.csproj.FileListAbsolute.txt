@@ -108,3 +108,4 @@ D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCong
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Transaction.Frm_transactioncs.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Contract.FormEditContract.resources
 D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Transaction.FormEditTransaction.resources
+D:\CDSG\IT\CTDLVGT\project\Apartment\obj\Debug\net8.0-windows\KTDK_CanHo_DaoCongTri.Authen.ForgotPassword.resources
